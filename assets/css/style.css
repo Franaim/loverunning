@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
 /* Header */
 
 header {
@@ -15,6 +22,7 @@ header {
 
 main {
     background-color: rgb(39, 148, 238);
+    flex: auto;
 }
 
 /* Footer */
